@@ -81,3 +81,68 @@ location used to store data in memory.
   which store diff of original elments not create copy of nested contents in shallow copy
 
   deep adds new object and recurcisvely adds the copy of nested objects present in original elments
+
+  **Class 5**
+  Python operators
+
+  symbols that carry arithmetic or logical computtation. value that opt have is oprand
+  .
+  Arithmetic operators:
+  +,-,*,/,%,//,..
+  comparison oprtors:
+   > < == != >= <=
+  Logical operators:
+  and or not
+
+  Bitwise operators:
+  & ! ~ ^ >> <<
+
+  Assignment operators:
+  = += -= *=
+
+  Identify operators:
+   is,  is not
+
+   Membership operators:
+   in , not in 
+
+python error  and exception 
+
+error occur not by folloeing structure of language is syntax error or parsing error
+
+Exceptions:
+Assertion error(when assert statement fails), attribute error, 
+EOF error(when input hit ends of file section)
+Floating PointError(when floating point error)
+GeneratorExit (when gen closed method called)
+Import error ( when import module not found)
+index error( when inde xof sequence is out of range)
+
+**Class 6**
+python directory and file managment
+
+directory or flder is set of files and subdirectories
+
+has os model which give us many methods to work with directories.
+directory management means creating dir and listing directories
+
+Python input, output and Import:
+input () and print() widely used for input and output operations
+
+for ease development, def inside module can be imported to another module or interactve interpreter in python . 
+Use import keyword to do this.
+
+Python essentials and pass statments
+
+pass is null statements,
+pass is not ignored
+when it executed nothing hapends, it result in no operations(NOP)
+pass
+we genrally use it as a placeholder
+
+Python Global: dec outside function . it can be accessed in side or outside functions.
+
+Local: define inside function body
+NonLocal var:
+used in nested function whose local scope is not defined,
+Means variable can be neither in the local nor golbal scope
