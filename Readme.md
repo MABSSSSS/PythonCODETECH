@@ -146,3 +146,34 @@ Local: define inside function body
 NonLocal var:
 used in nested function whose local scope is not defined,
 Means variable can be neither in the local nor golbal scope
+
+**File 7**
+Python functions
+function is group of related statments perform specific task in our program.
+
+break prgram into small and modular chunks, makes modular,organized and easy to debug.
+Reusuablity feature help us to avoid repetition of our prgram codes. 
+
+syntax:
+def func():
+   '''docstring'''
+   statements(s)
+   return value
+
+types of functions:
+
+builtin functions: chr(),abs(),flaot() and print()
+
+Userdefined fun: defined by users themselves to do certain specific tasks.
+
+Different datatypes:
+numbers, list, tuple , strings, Set and Dictionary
+also conversion possible 
+
+Decorators:
+to add functionality to an existing code
+
+also called metaprogramming as part of program tries to modify another part of prgram at compile time.
+
+Python closures:
+ is a function object that remember values in enclosing scopes even if they are not present in memory
