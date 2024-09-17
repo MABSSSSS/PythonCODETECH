@@ -177,3 +177,21 @@ also called metaprogramming as part of program tries to modify another part of p
 
 Python closures:
  is a function object that remember values in enclosing scopes even if they are not present in memory
+
+ **Class 8**
+ Python Regular Expressions
+ allow to you locate and change strings .
+ work same in every language
+
+ used to search for specific string in large amount of data.
+ verify proper format.
+ find  string and replace it with other string 
+ foramt data into proper format for importing for proper use
+
+ Nested Dictionary Implementation:
+ dict inside dictionary . in one single dictionary 
+ e.g: a={
+   'b':{'a':"Ali"},
+   'c':{'a':"Ali"},
+
+ }
