@@ -195,3 +195,30 @@ Python closures:
    'c':{'a':"Ali"},
 
  }
+
+ **Class :9**
+ condtional statments
+ 
+ if syntax:
+
+ if :
+ statements(s)
+
+esle syntax:
+ if :
+ body of if
+ else:
+ Body of else
+
+elif syntax
+ if elif:
+ if :
+ body
+ elif :
+ body
+ else:
+ body
+we can have nested statments .
+indentation is the only way to demark the level of nested
+
+User defined exceptions:

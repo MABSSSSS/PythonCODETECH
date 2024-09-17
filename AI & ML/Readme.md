@@ -133,3 +133,8 @@ Varaiables:
   union(l1,l2,l)
   Intersection of two lists:
   
+**Class:4**
+  Merge Sort of elements of list:
+  define the procedure
+  mergesort(L,SL)
+
