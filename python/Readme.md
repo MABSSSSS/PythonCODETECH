@@ -222,3 +222,17 @@ we can have nested statments .
 indentation is the only way to demark the level of nested
 
 User defined exceptions:
+
+**Class 10**
+While loop:
+used to iterate over a block of code as long as test expression is true.
+
+while loop with else syntax :
+have optional while loop as well.
+
+else part exxecuted if while loop evaluates to false. while loop terminated with break stats.
+
+then else part is ignore.
+
+Essentials:
+@property of python.
