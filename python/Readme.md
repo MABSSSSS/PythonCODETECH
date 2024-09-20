@@ -236,3 +236,45 @@ then else part is ignore.
 
 Essentials:
 @property of python.
+
+**Class :11**
+
+File methods in Python:
+close().
+detach().
+fileno().
+flush().
+isatty().
+read(n).
+readable().
+readline(n=-1).
+seek()
+seekable()
+tell()
+truncate(size=None).
+writable().
+write(s).
+writelines(lines).
+
+
+Python function Arguments:
+Arguments passing is optional. function can have fixed or variable number of arguments.
+
+default arguments.
+keyword arguments.
+Arbitrary arguments.
+
+Break statement:
+ can alter flow of normal loop.
+ loops iterate over block of code until test expression is false,but sometimes we wnat to terminate current iteration without checking test expressions.
+
+ break terminates the loop containing it . control of program flows the statment immediately after body of loop.
+
+ If break statement is inside a nested loop , break will terminate the inner most loop. (break:)
+
+ Exception handling:
+ 
+ Try, Except and Finally:
+ has many builtin exceptions which enables our program to output an error message when someting goes wrong.
+
+ When these exceptions occur , causes current process to stop and passes to calling process it is handled. If not handled ,our program will crash.
