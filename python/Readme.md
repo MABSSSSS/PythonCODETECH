@@ -278,3 +278,72 @@ Break statement:
  has many builtin exceptions which enables our program to output an error message when someting goes wrong.
 
  When these exceptions occur , causes current process to stop and passes to calling process it is handled. If not handled ,our program will crash.
+
+ **Class:12**
+ Lists:
+
+ refereed to as sequences. versatile datatype in python and most frequently used in python.
+
+ append()
+ extend()
+ insert()
+ remove()
+ pop()
+ clear()
+ index()
+ count()
+ sort()
+
+ List built in functions:
+ all()
+ any()
+ enumerate()
+ len()
+ list()
+ max()
+ sorted()
+ sum()
+
+ Continous Statment:
+ skip the rest of code inside loop for current iteration only. loop isnt terminate but continues on with the next iteration.(CONTINUE)
+
+ Iterartion using for:
+ for used for iterate over sequence , iterating over a sequence is called traversal.
+
+ range function:
+
+ generate sequence of numers using range().
+ start,stop and step size as range. step size default to 1 not.
+
+ with else :
+ A for loop can also have an optional else block. else part executed when items in sequence used in for loop exhausts.
+
+ break can be used to stop for loop.
+ for loop's else part runs if no break occurs.
+
+ **Python Recursion**
+ Process in which function call itself directly or indirectly call recursive function . recursive algorithm certain problems start quickly.
+
+ Also there will be base case.In base cases for certain inputs, output will remain known to us.
+ Supports recursion.
+
+ makes cide clean and elegant.
+ complex task broken down into simpler sub problems using recursion.
+ Sequence generation is easier with recursion using some nested iteration.
+
+ sometimes logic behid recursion is hard to follow thorugh.
+ recursive calls are expensive as they takeup alot of memory ans time.
+ Recursive functions are hard to debug.
+
+ python Strings:
+ sequence of characters .contain alphbets ,digit and special characters.
+
+ computers convert chars to num in binary representation.internally it is stored and manipulated as combination of 0 and 1.
+ conversion of character to number is called encoding and reverse process is decoding.
+ ASCII and Unicode are some popular encoding used.
+
+ Python Assert:
+ Assertionsa re statements that are assert or staet a fact confidently in our program.
+ Assertion are simply boolean expressions that checks if condition return true or not.If true program does nothing and move to next line of code. However if false program stops and throw an error.
+
+ Also a debugging tool as it brings the program on halt as soon as any error is occured and shows on which point of program error has occured.
