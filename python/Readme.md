@@ -347,3 +347,39 @@ Break statement:
  Assertion are simply boolean expressions that checks if condition return true or not.If true program does nothing and move to next line of code. However if false program stops and throw an error.
 
  Also a debugging tool as it brings the program on halt as soon as any error is occured and shows on which point of program error has occured.
+
+ **Class:14**
+
+ Arrays Implementation:
+ are fundamentals part .collection of single element dattype , e-g:array of string and integer.
+ append()
+extend()
+insert()
+remove()
+pop()
+clear()
+index()
+count()
+sort()
+reverse()
+copy()
+
+Iterators:
+implemented within for loops,generators but hidden in plain sight.
+
+an object that canbe iterated upon.
+__iter__() and __next__() collectively called iterator protocol.
+
+builtin containers: list,tuple, string are iterators.
+
+iter() return iterator form them.
+next() must return next item in sequence.
+
+Operator overloading:
+work ofr builtin classes. but same opt behave diff with diff types.
+This allows same opt to have diff meaning according to context is called operator overloading.
+
+comparison overloading :
+less tha, or equal to and so on.
+
+
