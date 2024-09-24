@@ -406,3 +406,25 @@ sorted()
 sum()
 tuple()
 
+**Class:16** 
+OOP Approach:
+
+mutli paradigm language. by creating objects. that why it is OOP.
+ two chars:
+
+ Attributes.
+ Behaviours or methods.
+
+OOP focuses on reusuable code. Also known as DRT(dont repaet yourself)
+
+principles:
+Inheritance:using details from new class without modifyiing existing details.
+Encapsulation:hiding private daetails of class from other objects.
+Polymorphism:using common opt in diff ways for diff data input.
+
+Python Anonymous Or Lambda function:
+defined without having any name.
+
+are used the lambda keyowrd.
+
+anonymous function also call lambda function.
