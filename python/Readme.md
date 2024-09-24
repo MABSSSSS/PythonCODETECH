@@ -382,4 +382,27 @@ This allows same opt to have diff meaning according to context is called operato
 comparison overloading :
 less tha, or equal to and so on.
 
+**Class:15**
+OOp language is simply collection of data and methods that act on those data. Class is blueprint of data.
+Object is an instance of class and process of creating object is call instantiation.
+
+Tuples:
+is similar to list . but cant change element of tuple.
+
+Advantages:
+for heterogenous datatypes and list for homogenous.
+tuple are immutable, performance boost.
+
+immutable lements are used as key for dictionary.
+.
+Builtin Func in tuples:
+all()
+any()
+enumerate()
+len()
+max()
+min()
+sorted()
+sum()
+tuple()
 
