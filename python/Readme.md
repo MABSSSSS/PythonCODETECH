@@ -428,3 +428,60 @@ defined without having any name.
 are used the lambda keyowrd.
 
 anonymous function also call lambda function.
+
+**Class:17**
+Numbers:
+it supports three number datatypes.
+int,float,complex 
+
+type() function to know which class var or value belongs to and instance ()function to check if it belongs to particular class.
+
+Number data types:
+15 decimal places.
+binary(2),octal(8) and hexa(16).
+
+reperesent these numbers by appropriate placing prefix before that number.
+OB or 0B as binary number prefix.
+0o or 00 as Octal number prefix.
+Ox or 0x as hexadecimal number prefix.
+
+type conversion.
+builtin func:
+int()
+float()
+complex().
+
+Different Looping techniques:
+
+Loop in python with condition at the top:
+
+this implemented using without break statement. condition of while loop is at the top and loop terminats when this condition is false.
+
+in middle:
+this kind of loop can be implemented using an infinite loop along with cond break in bw the body of loop.
+At bottoom:
+body of loop implemented at least once.can be implemented using infinte loop along with conditional break at hte end. this is similar to do_while loop in c.
+
+INfinite loop:
+using while loop .if condition of while loop is always True, get an infinite loop.
+
+File read and write operations:
+logical unit of related information stored on name location on disk.used permanenetly store data in non volatile memory.
+Since RAM is volatile, so it cant be treated for permanent storage of data.
+when we read or write file we have  to close it.
+
+file opt take place in following sequence.
+open a file.
+read or write a file(perform operation)
+close the file.
+r -> open file for  reading
+w-> open for writing ,create new one if not exist.
+x-> for exclusicne creation,if already exist opt fails.
+a-> OPEN FILE FOR apending at the end of filewithout truncating it.create new one if not exist.
+t -> open in text mode (default)
+b-> open in binary mode.
++ ->open file for updating (reading and writing)
+
+closing a file:
+it will free resources that are tight with fileand done using close() .
+it has garbage collector to clean up unref objects but, we notrely on it close the file.
