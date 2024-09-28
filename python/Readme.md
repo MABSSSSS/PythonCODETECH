@@ -497,3 +497,28 @@ union.intersection and symmetric operations.
 add(),clear(),copy(),difference(),difference_update(),discard(),intersection,intersection_update(),isdisjoint(),issubset(),issuperset(),pop(),remove(),union(),update(),all(),any(),
 enumerate(),len(),max(),min(),sorted(),sum().
 
+**Class:19**
+Dictionary
+
+unordered collection of items it has key value pair.
+optimized to retrieve values when key is known.
+
+clear(),copy(),fromkey(),get(key[]),items(),keys(),pop(),values(),popitem(),setdefault(),update().
+
+Modules.
+is simply python source file which can expose classes,function and global variables. when imported from another source file file name is treated as python source file.  python package is simply directory of python module(s).
+e.g: import numpy or import numpy as np 
+
+Global keyword:
+allow us to modify variable outside of current scope. used to create var and make changes to variable in local context.
+
+HOW TO USE:
+when we create var inside a function its local by default.
+define var outside function its global by default.
+
+We use global keyword to read and write global variable inside function.
+
+use of global keyword outside a function has no effect.
+
+
+LIST COMPREHENSION:
