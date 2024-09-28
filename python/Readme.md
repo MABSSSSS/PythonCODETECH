@@ -485,3 +485,15 @@ b-> open in binary mode.
 closing a file:
 it will free resources that are tight with fileand done using close() .
 it has garbage collector to clean up unref objects but, we notrely on it close the file.
+
+**Claas:18** 
+
+python matrix implementation
+
+python sets:
+unordered colection of unique items. No duplicate elements are allowed in set and must be immuteable.
+union.intersection and symmetric operations.
+
+add(),clear(),copy(),difference(),difference_update(),discard(),intersection,intersection_update(),isdisjoint(),issubset(),issuperset(),pop(),remove(),union(),update(),all(),any(),
+enumerate(),len(),max(),min(),sorted(),sum().
+
