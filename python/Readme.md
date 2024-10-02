@@ -522,3 +522,55 @@ use of global keyword outside a function has no effect.
 
 
 LIST COMPREHENSION:
+
+**File Read And write operations:**
+
+Clsoing file:
+safer mode is try finally block.
+
+try:
+f =open("emp.dat",encoding ='utf-8')
+finally:
+f.close()
+
+file is properly closed evenif an exception is rasoed, causing program flow to stop.
+
+best way to do this is by using with statement.
+ensures  that file is closed when block inside with is exited without explicitly calling the close() method.
+
+with open("test.txt", encoding ='utf-8') as f:
+#perform opeartions.
+
+**Python Inheritance:**
+refers to deifne a new class with little or no modifications.
+new class is derived class or child class.
+one from which it inherits is base (parent ) class.
+
+single,multiple,hierarchical,multilevel and hybrid inheritance.
+
+**Python Generators:**
+
+iterator in python incur lot of overheads.
+implementing a class with __iter__ and __next__()method. then leeping track of internal states, rasie stop iteration when thre was no values to be returned.
+
+this is both lengthy and counter intuitive. it comes with more simplicities.
+
+Are simple a=way of creitng iterators. All overhead auto handled by genrators in python.
+
+Generator is function that returns an object which we can iterate over.
+
+
+-->differnece between Gneerator and normal function:
+Gen function contains one or more yield statement.
+when called it returns an object(iterator) but doesnt start execution immediately.
+
+methods like __iter__() and __next__() are implmented automatically.so can iterate over items using next().
+once function iters, fucntion is paused and control is transfered to caller.
+local variables and their states are remembered between successive calls.
+
+fially when function terminates , stop iteration  is raised automatically on further calls.
+
+**--> Python multiple Inheritance:**
+ Class derived form one more than base classess is multiple inheritance.
+
+ in it features of all base classes are inherited into derived class. The syntax for multiple inheritance is similar to single inheritance.
